@@ -104,7 +104,7 @@ public class Main {
     	
     	valid = false;
     	
-    	System.out.println("Please enter a valid departure airport code (syd, mel, lax, cdg, del, pvg, doh): ");
+    	System.out.println("Please enter a valid destination airport code (syd, mel, lax, cdg, del, pvg, doh): ");
     	String destinationAirportCode = scanner.nextLine();
     	
     	// Destination airport must be allowed AND not the same as departure
